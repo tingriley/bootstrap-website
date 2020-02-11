@@ -80,7 +80,13 @@ body {
 }
 
 .features {
-  margin: 4em auto;
+  margin: 1em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.portfolios {
+  margin: 1em auto;
   padding: 1em;
   position: relative;
 }
@@ -127,6 +133,15 @@ body {
   color: #666;
   padding: 40px 0;
 }
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
 
 @media (max-width: 575.98px) {
 
@@ -289,3 +304,9 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 
+
+
+
+.padding-bot-1 {
+    padding-bottom: 1em;
+}
