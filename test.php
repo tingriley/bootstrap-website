@@ -9,7 +9,7 @@
  <head>
  </head>
  <body>
-<table>
+<table class="center">
     <thead>
 		<tr>
 			<th>Number</th>

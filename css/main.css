@@ -310,3 +310,8 @@ a.socialIcon:hover, .socialHoverClass {
 .padding-bot-1 {
     padding-bottom: 1em;
 }
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
