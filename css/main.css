@@ -7,7 +7,7 @@ body {
 /*--- navigation bar ---*/
 
 .navbar {
-  background:#1f4cb7;
+  background:#4a7aec;
 }
 
 .nav-link,
@@ -32,12 +32,15 @@ body {
 }
 
 
-.header {
-  background-image: url('img/header-background.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
+
+
+.header2 {
+  
+ max-height: 50%;
 }
+
+
+
 
 .overlay {
   position: absolute;
@@ -45,7 +48,24 @@ body {
   min-width: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: linear-gradient(#4a7aec, #a31aeb);
+}
+
+.overlay2 {
+  position: absolute;
+  max-height: 20%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(#4a7aec, #a31aeb);
+}
+
+.overlay2 {
+  position: absolute;
+  min-height: 60%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(#4a7aec, #a31aeb);
 }
 
 .description {
@@ -54,6 +74,15 @@ body {
   top: 45%;
   transform: translate(-50%, -55%);
   text-align: center;
+}
+
+.description-project {
+  padding: 8em 0 1em 0;
+  text-align: center;
+}
+
+.description-project p{
+  font-size: 18px;
 }
 
 .description h1 {
@@ -315,3 +344,6 @@ table.center {
     margin-left:auto; 
     margin-right:auto;
 }
+
+
+
