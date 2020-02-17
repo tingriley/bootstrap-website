@@ -7,7 +7,7 @@ body {
 /*--- navigation bar ---*/
 
 .navbar {
-  background:#4a7aec;
+  background:#006AE0;
 }
 
 .nav-link,
@@ -20,7 +20,6 @@ body {
 .nav-link:hover,
 .navbar-brand:hover {
   color:cyan;
-  padding: 0 2em;
 }
 
 .nav-link {
@@ -31,16 +30,11 @@ body {
   color:aqua;
 }
 
+.header {
 
-
-
-.header2 {
-  
- max-height: 50%;
+   background-image: url('../img/p1.jpg');
+   background-size:cover;
 }
-
-
-
 
 .overlay {
   position: absolute;
@@ -48,7 +42,6 @@ body {
   min-width: 100%;
   left: 0;
   top: 0;
-  background: linear-gradient(#4a7aec, #a31aeb);
 }
 
 .overlay2 {
@@ -178,22 +171,26 @@ border-radius: 2px; }
     left: 0;
     padding: 0 15px;
     position: absolute;
-    top: 10%;
+    top: 20%;
     transform: none;
     text-align: center;
   }
   
   .description h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   
   .description p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   .features {
     margin: 0;
   }
+    
+    table{
+        max-width: 100px;
+    }
 
 }
 #main-navigation {
@@ -333,17 +330,20 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 
-
-
-
 .padding-bot-1 {
     padding-bottom: 1em;
 }
 
 table.center {
-    margin-left:auto; 
+    margin-left:auto;
     margin-right:auto;
 }
 
+
+.my-custom-scrollbar {
+position: relative;
+-webkit-overflow-scrolling: touch;
+overflow-x: auto;
+}
 
 

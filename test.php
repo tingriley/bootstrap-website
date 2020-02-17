@@ -9,6 +9,7 @@
  <head>
  </head>
  <body>
+ <div class="my-custom-scrollbar">
 <table class="center">
     <thead>
 		<tr>
@@ -33,5 +34,6 @@ while ($row = mysqli_fetch_array($result)) {
 ?>
 <tbody>
 </table>
+     </div>
 </body>
 </html>
