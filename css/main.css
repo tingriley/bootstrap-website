@@ -14,7 +14,8 @@ body {
 .navbar-brand {
   color: #fff;
   cursor: pointer;
-  padding: 0 2em;
+  padding: 0.5em 2em;
+ 
 }
 
 .nav-link:hover,
@@ -32,34 +33,10 @@ body {
 
 .header {
 
-   background-image: url('../img/p1.jpg');
-   background-size:cover;
+   background-image: url('../img/background.jpg');
+    background-size: cover;
 }
 
-.overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-}
-
-.overlay2 {
-  position: absolute;
-  max-height: 20%;
-  left: 0;
-  top: 0;
-  background: linear-gradient(#4a7aec, #a31aeb);
-}
-
-.overlay2 {
-  position: absolute;
-  min-height: 60%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: linear-gradient(#4a7aec, #a31aeb);
-}
 
 .description {
   left: 50%;
@@ -88,18 +65,6 @@ body {
   line-height: 1.5;
 }
 
-.description button {
-  border:1px solid #4a7aec;
-  background:#4676ea;
-  border-radius: 0;
-  color:#fff;
-}
-
-.description button:hover {
-  border:1px solid #fff;
-  background:#fff;
-  color:#000;
-}
 
 .features {
   margin: 1em auto;
@@ -188,9 +153,6 @@ border-radius: 2px; }
     margin: 0;
   }
     
-    table{
-        max-width: 100px;
-    }
 
 }
 #main-navigation {
