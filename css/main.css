@@ -51,6 +51,11 @@ body {
   text-align: center;
 }
 
+.description-about {
+  padding: 8em 0 0 0;
+  text-align: center;
+}
+
 .description-project p{
   font-size: 18px;
 }
@@ -71,6 +76,19 @@ body {
   padding: 1em;
   position: relative;
 }
+
+.features-about {
+  margin: 1em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.features-about p{
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+
 
 .portfolios {
   margin: 1em auto;
@@ -273,6 +291,10 @@ a.socialIcon:hover, .socialHoverClass {
     padding: 50px 0;
 }
 
+.box-100{
+    padding: 50px 50px;
+}
+
 .box i{
     transition: transform 0.5s ease-out;
 }
@@ -292,3 +314,9 @@ table.center {
     margin-right:auto;
 }
 
+
+
+
+.img {
+    max-width: 100%;
+}
