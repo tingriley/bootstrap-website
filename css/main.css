@@ -52,7 +52,12 @@ body {
 }
 
 .description-about {
-  padding: 8em 0 0 0;
+  padding: 8em 0 1em 0;
+  text-align: center;
+}
+
+.description-fun {
+  padding: 0;
   text-align: center;
 }
 
@@ -164,12 +169,24 @@ border-radius: 2px; }
   }
   
   .description p {
-    font-size: 1rem;
+    font-size: 1em;
   }
   
   .features {
     margin: 0;
   }
+
+.features-about{
+    line-height: 1em;
+    margin: 0;
+    padding: 0 1em;
+}
+    
+
+.features-about p{
+ padding: 0 2em;
+ font-size: 16px;
+}
     
 
 }
