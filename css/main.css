@@ -176,17 +176,17 @@ border-radius: 2px; }
     margin: 0;
   }
 
-.features-about{
+  .features-about{
     line-height: 1em;
     margin: 0;
     padding: 0 1em;
-}
-    
+  }
 
-.features-about p{
- padding: 0 2em;
- font-size: 16px;
-}
+
+  .features-about p{
+    padding: 0 2em;
+    font-size: 16px;
+  }
     
 
 }
