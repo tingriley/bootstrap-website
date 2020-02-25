@@ -88,6 +88,11 @@ body {
   position: relative;
 }
 
+.features-about .box{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .features-about p{
   font-size: 1.1em;
   line-height: 1.6em;
@@ -187,6 +192,8 @@ border-radius: 2px; }
     padding: 0 2em;
     font-size: 16px;
   }
+
+}
     
 
 }
